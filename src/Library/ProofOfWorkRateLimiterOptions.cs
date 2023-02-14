@@ -43,14 +43,4 @@ public class ProofOfWorkRateLimiterOptions : IProofOfWorkRateLimiterOptions
             return callerCandidate;
         });
     }
-
-    //public ProofOfWorkRateLimiterOptions(
-    //    Func<HttpContext, String> CallerIdentifier,
-    //    String NonceHeader = "nonce",
-    //    String DifficultyHeader = "difficulty")
-    //{
-    //    this.NonceHeader = NonceHeader;
-    //    this.DifficultyHeader = DifficultyHeader;
-    //    this.CallerIdentifier = CallerIdentifier;
-    //}
 }
